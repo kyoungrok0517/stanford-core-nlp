@@ -1,0 +1,1 @@
+java -cp "*" -Xmx8g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref,depparse -file data/sample.txt -outputFormat conll
